@@ -32,7 +32,7 @@ const callMethod = () => {
     url: "https://api.sendgrid.com/v3/mail/send",
     headers: {
       Authorization:
-        "Bearer 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"
+        "Bearer <<api_key here>>"
     },
     data: {
       personalizations: [
